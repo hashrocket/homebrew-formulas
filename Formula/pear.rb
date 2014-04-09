@@ -13,9 +13,6 @@ class Pear < Formula
 
     puts "Installing binary"
     bin.install "pear"
-
-    puts "To ensure zshell autocompletion is reloaded run:"
-    puts "rm -f ~/.zcompdump; compinit"
   end
 
   def caveats
