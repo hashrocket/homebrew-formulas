@@ -6,10 +6,8 @@ class Pear < Formula
   sha1 "6936fd6fe091cfcde3025cdb6f0171fe2c5784be"
 
   def install
-    zsh_function_path = "~/.zsh/functions"
-
     puts "Installing zshell auto complete function"
-    system "cp #{Dir.getwd}/_pear #{zsh_function_path}"
+    cp "_pear", File.expand_path("~/.zsh/functions")
 
     puts "Installing binary"
     bin.install "pear"
