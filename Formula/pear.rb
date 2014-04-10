@@ -2,8 +2,8 @@ require "formula"
 
 class Pear < Formula
   homepage "https://github.com/Dparker1990/go-pear"
-  url "https://github.com/Dparker1990/go-pear/releases/download/v1.1.0/pear1.1.0.tar.gz"
-  sha1 "6936fd6fe091cfcde3025cdb6f0171fe2c5784be"
+  url "https://github.com/Dparker1990/go-pear/releases/download/v1.2.0/pear1.2.0.tar.gz"
+  sha1 "6dbf8892519074e317a09578ff8c5e64e48b3f25"
 
   def install
     if ENV['SHELL'] == '/bin/zsh'
