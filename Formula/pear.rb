@@ -7,11 +7,11 @@ class Pear < Formula
 
   def install
     if ENV['SHELL'] == '/bin/zsh'
-      puts "Installing zshell auto complete function"
+      ohai "Installing zshell auto complete function"
       cp "_pear", File.expand_path("~/.zsh/functions")
     end
 
-    puts "Installing binary"
+    ohai "Installing binary"
     bin.install "pear"
   end
 
