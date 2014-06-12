@@ -3,7 +3,7 @@ require "formula"
 class Pear < Formula
   homepage "https://github.com/derekparker/go-pear"
   url "https://github.com/derekparker/go-pear/releases/download/v1.3.2/pear1.3.2.tar.gz"
-  sha1 "6895352abf1782f446ef4d3cb950d9cc62d660b1"
+  sha1 "f4354f2f015b2e627754c7466830200744e82445"
 
   def install
     if ENV['SHELL'] == '/bin/zsh'
