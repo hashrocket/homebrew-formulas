@@ -1,9 +1,9 @@
 require "formula"
 
 class Pear < Formula
-  homepage "https://github.com/Dparker1990/go-pear"
-  url "https://github.com/Dparker1990/go-pear/releases/download/v1.2.0/pear1.2.0.tar.gz"
-  sha1 "374fe334d982bcfdaa21803a1845e314a3275b5d"
+  homepage "https://github.com/derekparker/go-pear"
+  url "https://github.com/derekparker/go-pear/releases/download/v1.3.2/pear1.3.2.tar.gz"
+  sha1 "6895352abf1782f446ef4d3cb950d9cc62d660b1"
 
   def install
     if ENV['SHELL'] == '/bin/zsh'
@@ -24,5 +24,9 @@ class Pear < Formula
 
       #####
     MSG
+  end
+
+  test do
+    system "pear -v"
   end
 end
