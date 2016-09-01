@@ -1,5 +1,3 @@
-require "formula"
-
 class Pear < Formula
   homepage "https://github.com/derekparker/go-pear"
   url "https://github.com/derekparker/go-pear/releases/download/v1.3.2/pear1.3.2.tar.gz"
